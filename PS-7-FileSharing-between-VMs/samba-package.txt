@@ -1,0 +1,14 @@
+sudo nano /etc/samba/smb.conf
+
+[Shared]
+   path = /home/sentry/shared
+   available = yes
+   valid users = sentry
+   read only = no
+   browsable = yes
+   public = yes
+   writable = yes
+
+sudo smbpasswd -a sentry
+
+sudo systemctl restart smbd
