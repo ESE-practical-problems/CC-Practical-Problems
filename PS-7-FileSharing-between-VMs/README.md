@@ -44,7 +44,7 @@ This method sets up a virtual network between VMs and transfers files using the 
 
 4. **Accept the fingerprint** when prompted.
 
-📚 **Reference**: [File Transfer between Virtual Machines using SCP - YouTube](https://www.youtube.com/watch?v=h_adwDledYM)
+📚 **Reference**: [File Transfer between Virtual Machines using SCP - YouTube](https://youtu.be/0MaS0nZCTZc)
 
 ---
 
@@ -76,7 +76,7 @@ Share a common folder between VMs for seamless file synchronization.
     sudo adduser $USER vboxsf
     reboot
     ```
-
+📚 **Reference**: [File Transfer between Virtual Machines using Shared folder - YouTube](https://www.youtube.com/watch?v=h_adwDledYM)
 ---
 
 ## Method 3: Using Shared Clipboard and Drag-and-Drop
